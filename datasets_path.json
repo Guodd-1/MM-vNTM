@@ -1,0 +1,32 @@
+{
+    "COCO2014": {
+        "local": {
+            "path_file": "./dataset/coco2014/coco2014.csv",
+            "image_emb_file": "./dataset/coco2014/coco2014_image_embeddings.pt",
+            "image_emb_file_csv": "./dataset/coco2014/coco2014_image_embeddings.csv",
+            "image_embeddings_index_path": "./dataset/coco2014/coco2014_image_embeddings_index.pkl",
+            "sbert_model_path": "./model/clip-ViT-B-32",
+            "word2vec_path": "./model/GoogleNews-vectors-negative300.bin.gz"
+        }
+    },
+    "Twitter100k": {
+        "local": {
+            "path_file": "./dataset/Twitter100k/twitter100k.csv",
+            "image_emb_file": "./dataset/Twitter100k/twitter100k_image_embeddings.pt",
+            "image_emb_file_csv": "./dataset/Twitter100k/twitter100k_image_embeddings.csv",
+            "image_embeddings_index_path": "./dataset/Twitter100k/twitter100k_image_embeddings_index.pkl",
+            "sbert_model_path": "./model/clip-ViT-B-32",
+            "word2vec_path": "./model/GoogleNews-vectors-negative300.bin.gz"
+        }
+    },
+    "Flickr30k": {
+        "local": {
+            "path_file": "./dataset/Flickr30K/Flickr30k_1.csv",
+            "image_emb_file": "./dataset/Flicker30K/Flickr30k_image_embeddings.pt",
+            "image_emb_file_csv": "./dataset/Flickr30K/Flicker30k_image_embeddings.csv",
+            "image_embeddings_index_path": "./dataset/Flickr30K/Flickr30k_image_embeddings_index.pkl",
+            "sbert_model_path": "./model/clip-ViT-B-32",
+            "word2vec_path": "./model/GoogleNews-vectors-negative300.bin.gz"
+        }
+    }
+}
